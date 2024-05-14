@@ -1,6 +1,6 @@
 body {
     --azul-escuro: #00002f;
-    --roxo-escuro: #211555;
+    --roxo-escuro: #7447E1;
     --verde-musgo: #5292c8;
     font-family: 'Barlow', sans-serif;
   
@@ -41,20 +41,23 @@ body {
   }
   
   .banner-2{
-    background-image: url(../assets/img/banner-2.png);
+    background-image: url(../assets/img/banner-3.png);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
   }
   
   .banner-3{
-    background-image: url(./assets/banner-3.png);
+    background-image: url(../assets/img/banner-2.png);
   }
   
   .botao-padrao {
-    background-color: var(--verde-musgo);
+    background-color: var(--roxo-escuro);
     color: white;
   }
   
   .botao-padrao:hover {
-    background-color: var(--roxo-escuro);
+    background-color: var(--verde-musgo);
   }
   
   .input-range::-webkit-slider-thumb, footer {
