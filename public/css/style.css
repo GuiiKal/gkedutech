@@ -74,3 +74,7 @@ body {
       --bs-body-color: white;
     }
   }
+
+  #contato a{
+    color: var(--roxo-escuro);
+  }
